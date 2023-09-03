@@ -1,0 +1,88 @@
+label {
+    color: #808080;
+    font-size: 14px;
+    position: absolute;
+    left: 655px;
+    display: inline;
+    top: 420px;
+    z-index: 1;
+}
+.form-style {
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v661-tk-24-watercolorpattern_0.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=c50934b8b873d57ce49039907892f126");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    margin-top: 11%;
+    padding: 44px 48px;
+    border: 2px solid rgb(56, 130, 133);
+    box-shadow: 0 4px 8px 0 rgb(166, 166, 166) , 0 6px 20px 0 rgb(166, 166, 166) ;
+    border-radius: 50px;
+    /* opacity:0.7; */
+    
+}
+h2{
+    color: rgb(21, 85, 88);
+    margin-bottom: 50px;
+    margin-top: 1px;
+}
+input {
+    border: 1.5px solid #06aaa9;
+    border-radius: 50px;
+    width: 80%;
+    padding: 12px;
+    background-color: #ffffffa1;
+}
+input:focus { 
+     
+    outline: none !important;
+    border: 1.5px solid #1c5e5e;
+}
+
+.btn-style{
+        color: #ffffff;
+        font-size: 17px;
+        font-family: initial;
+        background-color: #06aaa9;
+        margin-top: 50px;
+        width: 60%;
+        border: 1px solid ;
+
+}
+
+input[type=email] {
+    background-image: url('https://www.iconninja.com/files/618/860/906/internet-google-message-gmail-computer-email-icon.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 12px 20px 12px 40px;
+}
+input[type=password] {
+    background-image: url('https://www.pngkit.com/png/detail/235-2354885_png-file-svg-password-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 13px;
+    padding: 12px 20px 12px 40px;
+}
+#email{
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+#password{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.checkbox{
+    width: 100px;
+    position: absolute;
+    left: 585px;
+    top: 420px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #06aaa9;
+    position: absolute;
+    right: 627px;
+    top: 420px;
+}

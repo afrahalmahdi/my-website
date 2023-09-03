@@ -1,0 +1,218 @@
+/* الرابط حق خط about me */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+body{
+    background-image: url("../خلفيات/white-elegant-texture-background_23-2148445838.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+.images{
+    display: block;
+    z-index: 1;
+}
+#facebook{
+    position: absolute;
+    top: 41px;
+    right: 17px;
+    position: fixed;
+}
+#instagram{
+    position: absolute;
+    top: 65px;
+    right: 17px;
+    position: fixed;
+}
+#whatsapp{
+    position: absolute;
+    top: 88px;
+    right: 17px;
+    position: fixed;
+}
+.navbar{
+    width: 1600px;
+    /* position: absolute; */
+    position: fixed;
+    z-index: 2;
+    top: 120px;
+}
+#logo{
+       /* color: #916836; */
+       color: #362f2d;
+       text-align: center;
+       font-size: 30px;
+       letter-spacing: 8px;
+       word-spacing: 20px;
+       padding-top: 47px;
+       /* padding-bottom: 30px; */
+       background-color: #f8f5f4;
+       /* position: absolute; */
+       top: 0px;
+       width: 1600px;
+       height: 86px;
+       position: fixed;
+       /* z-index: 2; */
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 400px;
+    overflow: hidden;
+    background-color: #e5c7bd;
+}
+li{
+    float: left;
+}
+.menu{
+    display: block;
+    color: rgb(190, 113, 113);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.menu-h a:hover{
+    color: rgb(112, 128, 144);
+}
+#search{
+    position: absolute;
+    top: 8px;
+    right: 150px;
+    width: 350px;
+    height: 30px;
+    padding-left: 15px; 
+    border: 1px solid #e0a28d; 
+    border-radius: 8px;
+}
+#search:focus{
+    outline: none !important;
+    border: 1.5px solid #ce8d78;
+}
+.search-div{
+     background-color: #ffffff;
+     height: 28px;
+     width: 30px;
+     position: absolute;
+     top: 9px;
+     right: 115px;
+     border-radius: 8px;
+}
+#icon-img{
+    position: absolute;
+    top: 12px;
+    right: 120px;
+}
+
+.background-img1{
+    margin-top: 17%;
+    margin-left: 6%;
+    background-color: #b1735f;
+    height: 310px;
+    width: 578px;
+}
+
+.background-img2{
+    margin-left: 61.6%;
+    margin-top: -17.2%;
+    background-color: #b1735f;
+    height: 360px;
+    width: 485px;
+}
+
+.img-two{
+    margin-left: 59.4%;
+    margin-top: -25.8%;
+}
+
+#welcome{
+    position: absolute;
+    top: 62%;
+    right: 32%;
+    /* z-index: 1; */
+    color: rgb(75, 108, 141);
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+    height: 70px;
+    background-color: #e5c7bd;
+  
+}
+.about-d{
+    background-color: #e5c7bd;
+    margin-top: 280px;
+    padding-top: 10px;
+    text-align: center;
+    height: 700px;
+}
+#about-me{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+#about-p{
+    border-top: 1px solid #b1735f;
+    border-bottom: 1px solid #b1735f;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 20px;
+    word-spacing: 4px;
+    /* letter-spacing: 1px; */
+}
+.hoppy-d{
+    border-top: 1px solid #b1735f;
+    border-bottom: 1px solid #b1735f;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 400px;
+}
+#my-hoppy{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 3px double #b1735f;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.hobby-coontent {
+    float: left;
+    width: 22%;
+    border: 4px solid #b1735f;
+    padding: 20px;
+    margin: 50px 50px;
+}
+.hobby-coontent:hover {
+    background-color: #b1735f;
+    color: #ffffff;
+}
+.hobby-img{
+    width: 118px;
+    margin: 20px;
+}
+.hobby-title{
+    font-size: 28px;
+}
+.footer{
+    color: #ffffff;
+    background-color: #e5c7bd;
+    padding :0px;
+    clear: both;
+    position: absolute;
+    top: 1550px;
+    margin-top: 900px;
+    width: 1508px;
+    font-size: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #b1735f;
+}
